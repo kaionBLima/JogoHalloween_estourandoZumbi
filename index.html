@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="imagens/icon_cabeça_zumbizo_top_ page.png" />
+		<meta charset="UTF-8">
+		<title>Estoura Balões | Seleção de Nível</title>
+		<link rel="stylesheet" href="index.css">
+
+		<script language='Javascript'>
+			function iniciaJogo() {
+				var nivel_jogo = document.getElementById('nivel_jogo').value;
+
+				window.location.href = 'jogo.html?' + nivel_jogo;
+			}
+		</script>
+	</head>
+
+	<body id="body">
+		
+		<div id="menu_2">
+			<div>
+				<img src="imagens/fundo_inicial.png" alt="">
+			</div>
+
+			<div class="selection">
+				<p>
+					<b id="nivel_1">Nível: </b>
+
+					<select id="nivel_jogo" onclick="audio_selector.play()">
+						<option onclick="audio_over.play()" value="1" >Fácil</option>
+						<option value="2" onclick="audio_over.play()">Normal</option>
+						<option	value="3" onclick="audio_over.play()">Difícil</option>
+					</select>
+				</p>
+				<br/>
+
+				<div>
+					<img id="start_1" src="imagens/start.png" onclick="iniciaJogo()" />
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<img src="imagens/som.png" onclick="fundo_audio.play()" style="margin-top: 1px; width: 50px; border: solid;border-radius: 10px; background-color: red; opacity: 50%" title="TOQUE PARA AÚDIO">
+
+	<script type="">
+		fundo_audio = new Audio;
+		fundo_audio.src = 'souds/tema1.mp3';
+
+		audio_selector = new Audio;
+		audio_selector.src = 'souds/soundtrack.mp3';
+
+		audio_over = new Audio;
+		audio_over.src = 'souds/selection_nivel.mp3';
+	</script>
+	
+</html>

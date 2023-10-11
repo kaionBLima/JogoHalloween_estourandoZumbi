@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="imagens/icon_cabeça_zumbizo_top_ page.png" />
+		<meta charset="UTF-8">
+		<title>Estoura Balões | Jogue gratuitamente!</title>
+		<link rel="stylesheet" href="jogo.css">
+		<script language='Javascript' src="jogo.js"></script>
+	</head>
+
+	<body onload="iniciaJogo()">
+
+		
+
+		<div id="menu_1" style="position: relative;" >
+
+			<table >
+				<tr>
+					<td>
+						<img id="icone_zumbi_inteiro" src="imagens/icone_zumbi_inteiro.png">
+					</td>
+					<td>
+						<span id="baloes_inteiros"></span>
+					</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td>
+						<img id="icone_zumbi_estourado" src="imagens/icone_zumbi_estourado.png">
+					</td>
+					<td>
+						<span id="baloes_estourados"></span>
+					</td>
+				</tr>
+			</table>
+
+			<br>
+
+			<table style="width: 140px; height: 152px;">
+				<tr>
+					<td id="cronometro_zumbi">
+						<span id="cronometro"></span>
+					</td>
+				</tr>
+			</table>
+
+			<br>
+			<br>
+
+			<table>
+				<tr>
+					<td>
+						<a href="http://127.0.0.1:5500/Projeto%20Jogo%20Zumbizo/estourando_zumbi/index.html"><img id="exit" src="imagens/exit.png"></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		</div>
+		
+		<div id="cenario"></div><br><br>
+
+		
+		
+	</body>
+
+	<footer>
+	<img src="imagens/som.png" onclick="fundo_audio.play()" style="margin-top: 580px; width: 50px; border: solid;border-radius: 10px; background-color: red; opacity: 50%; margin-left: -1200px" title="TOQUE PARA AÚDIO">
+
+	</footer>
+
+
+	<script type="">
+		fundo_audio = new Audio;
+		fundo_audio.src = 'souds/tema1.mp3';
+	</script>
+	
+</html>

@@ -1,0 +1,82 @@
+/* Estilização do corpo da página "body" */
+
+body {
+    display: inline-flex;
+    background-image: url('imagens/background_zumbi_3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-left: 25%;
+
+}
+
+/* Estilização do menu_1 */
+
+#menu_1 {
+    display: block;
+    float: none;
+    width: auto;
+    height: 500px;
+    border: ridge 5px #eb0b0bb2;
+    margin-right: 15px;
+    border-radius: 15px;
+    background-image: url('gifs/fundo_menu.gif');
+    background-position: 45% 50%;
+
+}
+
+/* Estilização da primeira linha */
+
+#icone_zumbi_inteiro {
+    width: 50px;
+    padding: 15px;
+}
+
+#baloes_inteiros {
+    font-size: 40px;
+    color: red;
+}
+
+#icone_zumbi_estourado {
+    width: 50px;
+    padding: 15px;
+}
+
+#baloes_estourados {
+    font-size: 40px;
+    color: red;
+}
+
+/* Estilização do cronômetro */
+
+#cronometro_zumbi {
+    background: url('imagens/cronometro_zumbi.png');
+    background-size: 290px;
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+    text-align: center;
+}
+
+#cronometro {
+    color: red;
+    font-size: 30px;
+}
+
+/* Estilização do botão de sair */
+
+#exit {
+    width: 130px;
+}
+
+/* Estilização do cenário */
+
+#cenario {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border-radius: 5px; border: ridge 5px #eb0b0bb2;
+	background: url('gifs/fundo_menu.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}

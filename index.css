@@ -1,0 +1,42 @@
+#body {
+    background-image: url('imagens/fundo\ inicial.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#menu_2 {
+    text-align: center;
+}
+
+.selection {
+    border: ridge 15px rgba(80, 11, 11, 0.699);
+    border-radius: 25%;
+    padding: 2%;
+    display: inline-block;
+    background-color: rgba(138, 6, 6, 0.596);
+    margin: 2%;
+}
+
+#nivel_1 {
+    color: rgba(190, 182, 67, 0.788);
+    font-size: 170%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nivel_jogo {
+    border: ridge 5px;
+    border-radius: 10%;
+    color: rgba(219, 29, 22, 0.801);
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#start_1 {
+    width: 350px;
+    opacity: 50%;
+}
+
+#start_1:active {
+    width: 330px;
+}
